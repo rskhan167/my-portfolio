@@ -11,16 +11,13 @@ export default function VHome() {
   return (
     <div className={styles.homeContainer}>
       <Head>
-        <title>Karolina Hudziec</title>
+        <title>Rasool Khan</title>
         <meta
           name="description"
           content="This is my portfolio page. The purpose of this page is to introduce my person, my coding style, and show off a little bit of my web development skills."
         />
-        <meta name="author" content="Karolina Hudziec" />
-        <meta
-          name="keywords"
-          content="Karolina, Hudziec, Portfolio, Frontend"
-        />
+        <meta name="author" content="Rasool Khan" />
+        <meta name="keywords" content="Rasool, Khan, Portfolio, Frontend" />
         <meta
           property="og:image"
           content="https://www.khudziec.com/portfolioPage.png"
@@ -35,7 +32,7 @@ export default function VHome() {
             <VMainHeader />
             <div className={styles.profilePicture}>
               {/* <Image
-                alt="Profile picture of Karolina Hudziec."
+                alt="Profile picture of Rasool Khan."
                 src={profilePicture}
               /> */}
             </div>

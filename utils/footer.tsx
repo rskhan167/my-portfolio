@@ -20,7 +20,7 @@ export function VFooter() {
       </h4>
       <div className={styles.icons}>
         <VIcon
-          defaulIcon={linkedInLogo}
+          defaultIcon={linkedInLogo}
           onHoverIcon={linkedInLogoHover}
           href="https://www.linkedin.com/in/karolina-hudziec-0b2ba815a"
           height="30px"
@@ -28,17 +28,17 @@ export function VFooter() {
           name="LinkedIn"
         />
         <VIcon
-          defaulIcon={gmailLogo}
+          defaultIcon={gmailLogo}
           onHoverIcon={gmailLogoHover}
-          href="mailto:khudziec@gmail.com"
+          href="mailto:rs.khan167@gmail.com"
           height="30px"
           width="30px"
           name="Gmail"
         />
         <VIcon
-          defaulIcon={gitHubLogo}
+          defaultIcon={gitHubLogo}
           onHoverIcon={gitHubLogoHover}
-          href="https://github.com/FutureInventor"
+          href="https://github.com/rskhan167"
           height="30px"
           width="30px"
           name="GitHub"

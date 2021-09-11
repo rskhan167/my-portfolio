@@ -9,12 +9,9 @@ export default function VWork() {
     <div className={styles.workContainer}>
       <Head>
         <title>Work history</title>
-        <meta name="description" content="Karolina Hudziec Portfolio Page" />
-        <meta name="author" content="Karolina Hudziec" />
-        <meta
-          name="keywords"
-          content="Karolina, Hudziec, Portfolio, Frontend"
-        />
+        <meta name="description" content="Rasool Khan Portfolio Page" />
+        <meta name="author" content="Rasool Khan" />
+        <meta name="keywords" content="Rasool, Khan, Portfolio, Frontend" />
         <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
       </Head>
       <VMenuBar activeTab="Work" />

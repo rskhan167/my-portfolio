@@ -8,11 +8,11 @@ export function VMainHeader() {
       <h1 className={styles.header}>
         {useTypedText("Hello everyone!", 50)}
         <br />
-        {useTypedText("I'm Rasool.", 50, 200)}
+        {useTypedText("I'm Rasool Khan.", 50, 200)}
       </h1>
       <h2>
         {useTypedText(
-          "Welcome on my portfolio page! I'm a Software Developer & Content Creator, currently working as Backend Developer. Living in Chennai, India.",
+          "Welcome to my portfolio page! I'm a Software Developer, currently working as Backend Developer. Living in Chennai, India.",
           30,
           350
         )}

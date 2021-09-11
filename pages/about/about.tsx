@@ -2,7 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import { VMenuBar, VPhotoGrid, VFooter } from "../../utils";
+import { VMenuBar, VFooter } from "../../utils";
 import styles from "./about.module.scss";
 
 export default function VAbout() {
@@ -10,12 +10,9 @@ export default function VAbout() {
     <div className={styles.aboutContainer}>
       <Head>
         <title>About me</title>
-        <meta name="description" content="Karolina Hudziec Portfolio Page" />
-        <meta name="author" content="Karolina Hudziec" />
-        <meta
-          name="keywords"
-          content="Karolina, Hudziec, Portfolio, Frontend"
-        />
+        <meta name="description" content="Rasool Khan Portfolio Page" />
+        <meta name="author" content="Rasool Khan" />
+        <meta name="keywords" content="Rasool, Khan, Portfolio, Frontend" />
         <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
       </Head>
       <VMenuBar activeTab="About" />

@@ -46,7 +46,7 @@ export function VToolsTech() {
     <div className={styles.technologiesIcon}>
       <div className={styles.technologiesIconsRow}>
         <VIcon
-          defaulIcon={htmlLogo}
+          defaultIcon={htmlLogo}
           onHoverIcon={htmlLogoHover}
           height="46px"
           width="46px"
@@ -54,7 +54,7 @@ export function VToolsTech() {
           tooltipID="html-tooltip"
         />
         <VIcon
-          defaulIcon={cssLogo}
+          defaultIcon={cssLogo}
           onHoverIcon={cssLogoHover}
           height="65px"
           width="65px"
@@ -62,7 +62,7 @@ export function VToolsTech() {
           tooltipID="css-tooltip"
         />
         <VIcon
-          defaulIcon={jsLogo}
+          defaultIcon={jsLogo}
           onHoverIcon={jsLogoHover}
           height="55px"
           width="55px"
@@ -70,7 +70,7 @@ export function VToolsTech() {
           tooltipID="js-tooltip"
         />
         <VIcon
-          defaulIcon={reactLogo}
+          defaultIcon={reactLogo}
           onHoverIcon={reactLogoHover}
           height="55px"
           width="55px"
@@ -78,7 +78,7 @@ export function VToolsTech() {
           tooltipID="react-tooltip"
         />
         <VIcon
-          defaulIcon={angularLogo}
+          defaultIcon={angularLogo}
           onHoverIcon={angularLogoHover}
           height="50px"
           width="50px"
@@ -86,7 +86,7 @@ export function VToolsTech() {
           tooltipID="angular-tooltip"
         />
         <VIcon
-          defaulIcon={tsLogo}
+          defaultIcon={tsLogo}
           onHoverIcon={tsLogoHover}
           height="65px"
           width="65px"
@@ -94,7 +94,7 @@ export function VToolsTech() {
           tooltipID="ts-tooltip"
         />
         <VIcon
-          defaulIcon={sassLogo}
+          defaultIcon={sassLogo}
           onHoverIcon={cssLogoHover}
           height="60px"
           width="60px"
@@ -102,7 +102,7 @@ export function VToolsTech() {
           tooltipID="sass-tooltip"
         />
         <VIcon
-          defaulIcon={lessLogo}
+          defaultIcon={lessLogo}
           onHoverIcon={lessLogoHover}
           height="65px"
           width="65px"
@@ -112,7 +112,7 @@ export function VToolsTech() {
       </div>
       <div className={styles.technologiesIconsRow}>
         <VIcon
-          defaulIcon={npmLogo}
+          defaultIcon={npmLogo}
           onHoverIcon={npmLogoHover}
           height="65px"
           width="65px"
@@ -120,7 +120,7 @@ export function VToolsTech() {
           tooltipID="npm-tooltip"
         />
         <VIcon
-          defaulIcon={yarnLogo}
+          defaultIcon={yarnLogo}
           onHoverIcon={yarnLogoHover}
           height="65px"
           width="65px"
@@ -128,7 +128,7 @@ export function VToolsTech() {
           tooltipID="yarn-tooltip"
         />
         <VIcon
-          defaulIcon={gitLogo}
+          defaultIcon={gitLogo}
           onHoverIcon={gitLogoHover}
           height="65px"
           width="65px"
@@ -136,7 +136,7 @@ export function VToolsTech() {
           tooltipID="git-tooltip"
         />
         <VIcon
-          defaulIcon={jestLogo}
+          defaultIcon={jestLogo}
           onHoverIcon={jestLogoHover}
           height="50px"
           width="50px"
@@ -144,7 +144,7 @@ export function VToolsTech() {
           tooltipID="jest-tooltip"
         />
         <VIcon
-          defaulIcon={mysqlLogo}
+          defaultIcon={mysqlLogo}
           onHoverIcon={mysqlLogoHover}
           height="70px"
           width="70px"
@@ -152,7 +152,7 @@ export function VToolsTech() {
           tooltipID="mysql-tooltip"
         />
         <VIcon
-          defaulIcon={pythonLogo}
+          defaultIcon={pythonLogo}
           onHoverIcon={pythonLogoHover}
           height="55px"
           width="55px"
@@ -162,7 +162,7 @@ export function VToolsTech() {
       </div>
       <div className={styles.technologiesIconsRow}>
         <VIcon
-          defaulIcon={vsLogo}
+          defaultIcon={vsLogo}
           onHoverIcon={vsLogoHover}
           height="50px"
           width="50px"
@@ -170,7 +170,7 @@ export function VToolsTech() {
           tooltipID="vs-tooltip"
         />
         <VIcon
-          defaulIcon={affinityLogo}
+          defaultIcon={affinityLogo}
           onHoverIcon={affinityLogoHover}
           height="50px"
           width="50px"
@@ -178,7 +178,7 @@ export function VToolsTech() {
           tooltipID="affinity-tooltip"
         />
         <VIcon
-          defaulIcon={davinciLogo}
+          defaultIcon={davinciLogo}
           onHoverIcon={davinciLogoHover}
           height="50px"
           width="50px"
@@ -186,7 +186,7 @@ export function VToolsTech() {
           tooltipID="davinci-tooltip"
         />
         <VIcon
-          defaulIcon={windowsLogo}
+          defaultIcon={windowsLogo}
           onHoverIcon={windowsLogoHover}
           height="50px"
           width="50px"
@@ -194,7 +194,7 @@ export function VToolsTech() {
           tooltipID="windows-tooltip"
         />
         <VIcon
-          defaulIcon={linuxLogo}
+          defaultIcon={linuxLogo}
           onHoverIcon={linuxLogoHover}
           height="50px"
           width="50px"
