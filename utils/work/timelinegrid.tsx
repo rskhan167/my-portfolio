@@ -15,12 +15,12 @@ export function VTimelineGrid() {
         <div className={styles.cardContent}>
           <div className={styles.cardContentHeader}>
             <div className={styles.companyLogo}>
-              {/* <Image
+              <Image
                 alt="University of Silesia logo."
                 src={usLogo}
                 height={50}
                 width={50}
-              /> */}
+              />
             </div>
             <div className={styles.companyInfo}>
               <h1 className={styles.companyTitle}>Uniwersytet Śląski</h1>
@@ -59,12 +59,12 @@ export function VTimelineGrid() {
         <div className={styles.cardContent}>
           <div className={styles.cardContentHeader}>
             <div className={styles.companyLogo}>
-              {/* <Image
+              <Image
                 alt="Wasko company logo."
                 src={waskoLogo}
                 height={13}
                 width={55}
-              /> */}
+              />
             </div>
             <div className={styles.companyInfo}>
               <h1 className={styles.companyTitle}>Wasko</h1>
@@ -103,12 +103,12 @@ export function VTimelineGrid() {
               className={styles.companyLogo}
               style={{ backgroundColor: "#0E2245" }}
             >
-              {/* <Image
+              <Image
                 alt="Noble Systems company logo."
                 src={nobleLogo}
                 height={50}
                 width={50}
-              /> */}
+              />
             </div>
             <div className={styles.companyInfo}>
               <h1 className={styles.companyTitle}>Noble Systems</h1>

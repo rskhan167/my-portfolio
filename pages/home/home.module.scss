@@ -2,7 +2,6 @@
   display: flex;
   background-color: #1a1a1a;
   flex-direction: column;
-  min-height: 100vh;
   max-width: 100vw;
 
   .content {
@@ -107,6 +106,7 @@
 
     .linkBox {
       left: 50%;
+      min-width: 300px;
       position: absolute;
       text-align: center;
       top: 50%;
@@ -125,7 +125,10 @@
       &Button {
         border: 3px solid #d5d5d5;
         color: #d5d5d5;
+        display: flex;
         font-size: 21px;
+        flex-wrap: nowrap;
+        justify-content: center;
         padding: 15px 20px;
         text-decoration: none;
 
@@ -160,5 +163,11 @@
       min-height: 400px;
       text-align: center;
     }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  %rotatedLayer {
+    height: 160vw !important;
   }
 }

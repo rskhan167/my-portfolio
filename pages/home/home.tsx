@@ -31,19 +31,19 @@ export default function VHome() {
           <div className={styles.introduction}>
             <VMainHeader />
             <div className={styles.profilePicture}>
-              {/* <Image
+              <Image
                 alt="Profile picture of Rasool Khan."
                 src={profilePicture}
-              /> */}
+              />
             </div>
           </div>
           <div className={styles.swipeDownIcon}>
-            {/* <Image
+            <Image
               alt="Chevron down icon."
               src={chevronDown}
               width="40px"
               height="15px"
-            /> */}
+            />
           </div>
         </div>
         <div className={styles.workHistory}>

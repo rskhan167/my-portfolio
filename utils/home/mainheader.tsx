@@ -6,13 +6,13 @@ export function VMainHeader() {
   return (
     <div className={styles.aboutInfo}>
       <h1 className={styles.header}>
-        {useTypedText("Hello everyone!", 50)}
+        {useTypedText("Hello!", 50)}
         <br />
         {useTypedText("I'm Rasool Khan.", 50, 200)}
       </h1>
       <h2>
         {useTypedText(
-          "Welcome to my portfolio page! I'm a Software Developer, currently working as Backend Developer. Living in Chennai, India.",
+          "Welcome to my portfolio page! I'm a Software Engineer, currently working as Backend Developer. Living in Chennai, India.",
           30,
           350
         )}

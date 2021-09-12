@@ -23,12 +23,12 @@ export function VIcon(props: IconProps) {
       style={{ height: props.height, width: props.width }}
     >
       <div className={styles.iconActive}>
-        {/* <Image
+        <Image
           alt={`On hover ${props.name} icon.`}
           src={props.onHoverIcon}
           width={props.width}
           height={props.height}
-        /> */}
+        />
       </div>
       {props.tooltipID && (
         <ReactTooltip id={props.tooltipID} type="light" effect="solid">
@@ -36,12 +36,12 @@ export function VIcon(props: IconProps) {
         </ReactTooltip>
       )}
       <div className={styles.icon}>
-        {/* <Image
+        <Image
           alt={`Default ${props.name} icon.`}
           src={props.defaultIcon}
           width={props.width}
           height={props.height}
-        /> */}
+        />
       </div>
     </a>
   );

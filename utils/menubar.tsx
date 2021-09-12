@@ -7,7 +7,7 @@ type MenuBarProps = {
 
 export function VMenuBar(props: MenuBarProps) {
   return (
-    <nav className={styles.menubar}>
+    <nav className={styles.menuBar}>
       <Link href={`/`}>
         <a className={styles.title}>
           <div className={styles.squareInitials}>RK</div>
