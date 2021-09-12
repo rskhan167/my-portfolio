@@ -19,8 +19,8 @@ export function VMenuBar(props: MenuBarProps) {
           <h3
             style={
               props.activeTab === "Home"
-                ? { color: "#E76161" }
-                : { color: "#D5D5D5" }
+                ? { color: "#FFF8E5" }
+                : { color: "#17252a" }
             }
           >
             Home
@@ -32,8 +32,8 @@ export function VMenuBar(props: MenuBarProps) {
           <h3
             style={
               props.activeTab === "Work"
-                ? { color: "#E76161" }
-                : { color: "#D5D5D5" }
+                ? { color: "#FFF8E5" }
+                : { color: "#17252a" }
             }
           >
             Work
@@ -45,8 +45,8 @@ export function VMenuBar(props: MenuBarProps) {
           <h3
             style={
               props.activeTab === "About"
-                ? { color: "#E76161" }
-                : { color: "#D5D5D5" }
+                ? { color: "#FFF8E5" }
+                : { color: "#17252a" }
             }
           >
             About

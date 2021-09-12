@@ -1,5 +1,5 @@
 .timelineGrid {
-  background-color: #d5d5d5;
+  background-color: #17252a;
   display: grid;
   column-gap: 7px;
   grid-template-columns: auto auto;
@@ -7,7 +7,7 @@
 
   &Item {
     align-items: center;
-    background-color: #1a1a1a;
+    background-color: #3aafa9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@
     }
 
     .timelinePoint {
-      background-color: #d5d5d5;
+      background-color: #17252a;
       border-radius: 15px;
       height: 30px;
       margin: 10px 0;
@@ -55,9 +55,9 @@
     }
 
     .cardContent {
-      background-color: #202020;
+      background-color: #3aafa9;
       border-radius: 30px;
-      border: 5px solid #d5d5d5;
+      border: 5px solid #17252a;
       min-height: 250px;
       transition: transform 0.2s;
       padding: 15px;
@@ -105,7 +105,7 @@
       }
 
       &Description {
-        color: #d5d5d5;
+        color: #17252a;
         font-size: 13px;
         margin: 10px 20px;
       }
